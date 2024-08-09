@@ -1,0 +1,20 @@
+version: 2
+models:
+  - name: customers
+    columns:
+      - name: user_id
+        description: The surrogate key of the customer
+      - name: user_created_at
+        description: user profile created date
+      - name: name
+        description: The customer fullname.
+      - name: email
+      - name: Address
+      - name: City
+      - name: State
+      - name: Zip
+      - name: DOB
+      - name: Order_ID
+        description: The surrogate key of order
+      - name: order_date
+      - name: order_total

@@ -1,0 +1,21 @@
+version: 2
+models:
+  - name: sales
+    columns:
+      - name: order_id
+        description: The surrogate key of the order
+      - name: order_date
+        description: date at which order is created
+      - name: user_id
+        description: The surrogate key of the user
+      - name: product_id
+        description: The surrogate key of the product
+      - name: discount
+      - name: quantity
+      - name: subtotal
+      - name: tax
+      - name: total
+      - name: category
+      - name: price
+      - name: title
+      - name: vendor

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbo
+    schema: dbo
+    description: a small e-commerce data
+    tables:
+      - name: orders
+      - name: products
+      - name: reviews
+      - name: users

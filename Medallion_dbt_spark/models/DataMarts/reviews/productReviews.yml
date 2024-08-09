@@ -1,0 +1,16 @@
+version: 2
+models:
+  - name: productReviews
+    columns:
+      - name: product_id
+        description: The surrogate key of the product
+      - name: category
+      - name: title
+      - name: vendor
+      - name: review_id
+        description: The surrogate key of the review
+      - name: review_date
+        description: review created date
+      - name: reviewer
+      - name: review_rating
+      - name: review_body
